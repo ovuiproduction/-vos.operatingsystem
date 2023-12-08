@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:aliceblue;
+}
+.back{
+    font-size:2rem;
+    position:absolute;
+    top:2%;
+    left:2%;
+    color: darkgray;
+    width: max-content;
+    height: max-content;
+    display: block;
+}
+.back a{
+    color: rgb(194, 193, 193);
+}
+.back a:hover{
+    color: rgb(65, 64, 64);
+}
+.cards{
+    width:80%;
+    height:max-content;
+    margin:10vh 10% auto 10%;
+    display: block;
+    font-size:1rem;
+}
+.cardblock1{
+    display:block;
+    width:100%;
+    height:max-content;
+    margin:1rem auto;
+}
+.card1{
+    width:50%;
+    margin:2rem 0;
+    height:max-content;
+}
+
+  @media only screen and (min-width: 768px){
+    .cardblock1{
+        display:flex;
+        width:100%;
+        height:max-content;
+        justify-content:space-around;
+        align-items: center;
+    }
+  }

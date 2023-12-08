@@ -1,0 +1,339 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:beige;
+}
+nav{
+    top: 0px;
+    margin:0px;
+    padding:0px;
+    background-color:rgba(36, 25, 47, 0.8);
+    width:100%;
+    height:50px;
+    display: flex;
+}
+nav .logotext{
+    width:max-content;
+    height:max-content;
+    margin-top:10px;
+    margin-left:100px;
+}
+nav .logotext h1{
+    margin: 0px;
+    padding: 0px;
+    font-family:cursive;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+}
+nav .jobcards{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:23px;
+    margin:20px 300px auto auto;
+}
+nav .jobcards a{
+    border-radius:5px;
+    padding:5px;
+    text-decoration: none;
+    color:gainsboro;
+    font-weight: 600;
+}
+nav .jobcards a:hover{
+    color:white;
+}
+nav .jobcards:hover{
+    transform:scale(1.1);
+}
+.inst{
+    padding:5px;
+    font-size:22px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top:15px;
+    right:100px;
+    border-radius:5px;
+    cursor: pointer;
+    color:gainsboro;
+    font-weight: 600;
+}
+.inst:hover{
+    color:white;
+    transform:scale(1.1);
+}
+
+.inputblock{
+    display: flex;
+    justify-content:center;
+    margin-top:50px;
+    width: 100%;
+    height:max-content;
+    padding:0px;
+}
+.inputandcontrol{
+    width:50%;
+}
+#paragraphInput{
+    width:95%;
+    height:auto;
+    margin:2%;
+    background-color:rgb(38, 41, 46);
+    color: white;
+    font-size:25px;
+    font-family:sans-serif;
+    border:2px solid white;
+    border-radius:5px;
+}
+#Rregister{
+    width:25%;
+    height:200px;
+    margin:2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    font-family: sans-serif;
+    font-size:20px;
+    border:1px solid gray;
+    background-color: rgb(26, 29, 31);
+    border-radius:5px;
+}
+
+.control{
+    display: flex;
+    width:100%;
+    height:max-content;
+    margin:20px auto auto auto;
+}
+
+#execute{
+    cursor: pointer;
+    border:2px solid rgb(224, 217, 232);
+    border-radius:5px;
+    width:70%;
+    margin:0 auto auto 13%;
+    height:40px;
+    background-color:#222065;
+    color:whitesmoke;
+    font-size:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#execute:hover{
+    color:rgb(0, 255, 4);
+    border:2px solid rgb(39, 27, 51);
+}
+
+#renew{
+padding:1%;
+color:#222065;
+cursor: pointer;
+font-size:30px;
+}
+
+.output{
+    width:100%;
+    height:200px;
+    background-color:rgb(226, 229, 232);
+    color:white;
+    font-size:25px;
+    font-family: sans-serif;
+    margin:20px auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:30px;
+    border-radius:5px;
+}
+#error{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height:90%;
+    border:2px solid rgb(218, 208, 227);
+    background-color: rgb(26, 29, 31);
+    border-radius:5px;
+    color:rgb(255, 7, 7);
+}
+#pcb{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height:90%;
+    border:2px solid rgb(218, 208, 227);
+    background-color: rgb(26, 29, 31);
+    border-radius:5px;
+    color:whitesmoke;
+    font-size:20px;
+}
+#datablock{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height:90%;
+    border:2px solid rgb(218, 208, 227);
+    background-color: rgb(26, 29, 31);
+    border-radius:5px;
+    color:whitesmoke;
+}
+#memory{
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+.byte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:2px;
+    border:2px solid rgb(172, 168, 168);
+    color:rgb(0, 0, 0);
+}
+
+.firstrow{
+    width: max-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(176, 176, 156);
+    position: absolute;
+    top:75vh;
+    left: 3%;
+    display:flex;
+    column-gap:200px;
+}
+.secondrow{
+    width: max-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(176, 176, 156);
+    position: absolute;
+    top:170vh;
+    left:3%;
+    display:flex;
+    column-gap:200px;
+}
+.thirdrow{
+    width: max-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(176, 176, 156);
+    position: absolute;
+    top:260vh;
+    left: 3%;
+    display:flex;
+    column-gap:150px;
+}
+.fourthrow{
+    width: max-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(176, 176, 156);
+    position: absolute;
+    top:355vh;
+    left: 3%;
+    display:flex;
+    column-gap:150px;
+}
+.fifthrow{
+    width: max-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(176, 176, 156);
+    position: absolute;
+    top:445vh;
+    left: 3%;
+    display:flex;
+    column-gap:150px;
+}
+.sixthrow{
+    width: max-content;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(176, 176, 156);
+    position: absolute;
+    top:540vh;
+    left: 3%;
+    display:flex;
+    column-gap:150px;
+}
+
+.instructions{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    display: none;
+    background-color:rgba(67, 67, 64,1);
+    color:white;
+}
+.instructions ul{
+    margin:10px auto auto 10%;
+    width:max-content;
+    height:max-content;
+    padding:5px;
+    line-height:40px;
+}
+.cross{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:20px;
+    right:50px;
+    width:50px;
+    height:50px;
+    border:2px solid rgb(71, 69, 71);
+    font-size:35px;
+    cursor: pointer;
+    color:azure;
+}
+.colorcode{
+    display: flex;
+}
+.Green{
+    padding:20px;
+    display: flex;
+}
+.Gray{
+    padding:20px;
+    display: flex;
+}
+.Yellow{
+    padding:20px;
+    display: flex;
+}
+.colorG{
+    margin-left:10px;
+    border:2px solid white;
+    width:50px;
+    height:50px;
+    background-color:green;
+    border-radius:50%;
+}
+.colorY{
+    margin-left:10px;
+    border:2px solid white;
+    width:50px;
+    height:50px;
+    background-color:yellow;
+    border-radius:50%;
+}
+.colorGy{
+    margin-left:10px;
+    border:2px solid white;
+    width:50px;
+    height:50px;
+    background-color:gray;
+    border-radius:50%;
+}
+
+.assumptiontitle{
+    color:yellow;
+    margin: 50px auto auto 150px;
+}
+.discription{
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+}
